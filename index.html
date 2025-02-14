@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>One Piece</title>
+    <style>
+      article {
+        height: auto;
+        width:  600px;
+        background-color: rgba(0,0,0,0.7);
+        padding: 20px ;
+        margin:15% 30%;
+      }
+
+      #background{
+        background-image: url(./juffyBack.jpeg);
+        background-repeat:no-repeat;
+        background-size: cover;
+      }
+
+      #description{
+        color: white;
+      }
+
+      #details {
+        height: 80px;
+        overflow: scroll;
+      }
+
+      #music {
+        height: 60px;
+        width: 200px;
+      }
+
+    </style>
+  </head>
+  <body id="background">
+    <article>
+      <embed src="./onePiece.gif" type="image/gif" width="600" height="400">
+      <details id="description">
+        <summary>Monkey D Luffy:</summary>
+        <div id="details">
+          <pre>
+          It's not about if I can. I'm doing it because I want to.
+          I've decided long ago that I'm gonna be the King of the Pirates,
+          if I've to die fighting for that, then I'd die!
+        </pre>
+          <embed src="./one_piece_overtaken.mp3" type="audio/mp3" id="music">
+        </div>
+      </details>
+    </article>
+  </body>
+</html>
